@@ -36,6 +36,7 @@ const styles = StyleSheet.create({
 
     iconStyle: {
         fontSize: 40,
+        color: 'orange',
         alignSelf: "center",
         marginHorizontal: 10,
     }
