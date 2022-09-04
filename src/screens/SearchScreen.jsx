@@ -1,5 +1,5 @@
 import React, {useState } from "react";
-import {Text, View, StyleSheet, ScrollView} from "react-native";
+import { StyleSheet, ScrollView} from "react-native";
 import SearchBar from "../components/SearchBar";
 import useResults from "../hooks/useResults";
 import ResultsList from "../components/ResultsList";
@@ -30,10 +30,6 @@ const SearchScreen = () => {
     );
 };
 
-const styles = StyleSheet.create({
-    viewStyle: {
-        flex: 1
-    },
-});
+const styles = StyleSheet.create({});
 
 export default SearchScreen;
